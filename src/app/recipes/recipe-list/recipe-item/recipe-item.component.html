@@ -1,0 +1,7 @@
+<a  class="list-group-item d-flex"  [routerLink]="[index]" >
+    <span>
+    <h4> {{recipe.name}} </h4>
+    <p>{{recipe.description}}</p>
+    </span>           
+    <img  style="max-height: 50px;" class="img-fluid ms-auto" [src]="recipe.imagePath" alt="">
+</a>

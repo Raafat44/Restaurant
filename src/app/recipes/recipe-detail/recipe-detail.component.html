@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col">
+        <img src="" alt="" style="max-height: 50px;" class="img-fluid">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h1>Recipe name</h1>        
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Manage Recipe
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" > To shopping list</a></li>
+              <li><a class="dropdown-item" >Edit Recipe</a></li>
+              <li><a class="dropdown-item" >Delete Recipe</a></li>
+            </ul>
+          </div>  
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        {{selectedRecipe.description}}      
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        {{selectedRecipe.name}}      
+    </div>
+</div>
